@@ -1,0 +1,16 @@
+---
+label: Blog Post
+hide_body: true
+fields:
+- type: list
+  name: aliases
+  label: aliases
+- type: text
+  name: title
+  label: title
+- type: text
+  name: author
+  label: author
+- type: list
+  name: tags
+  label: tags
