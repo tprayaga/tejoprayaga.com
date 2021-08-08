@@ -1,6 +1,6 @@
 baseURL = 'http://tejoprayaga.com/'
 languageCode = 'en-us'
-title = 'Quick Rants of a Startup Guy'
+title = 'Quick Rants of a Startup Product Guy'
 theme = 'anatole'
 [params]
 title = "I'm Tejo Prayaga"
