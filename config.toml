@@ -1,0 +1,52 @@
+baseURL = 'http://tejoprayaga.com/'
+languageCode = 'en-us'
+title = 'Quick Rants of a Startup Guy'
+theme = 'anatole'
+[params]
+title = "I'm Tejo Prayaga"
+author = "Tejo Prayaga"
+description = "Call me Tejo"
+profilePicture = "images/profile.jpg"
+copyright = "2020-{{ YEAR }}"
+disableThemeSwitcher = true # Theme switcher is enabled by default
+doNotLoadAnimations = true # Animations are loaded by default
+singleDateFormat = "Mon, Jan 2, 2006"
+indexDateFormat = "Mon, Jan 2, 2006"
+listDateFormat = "Jan 2"
+contentratio = 0.7
+enableMediumZoom = false
+
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+
+
+[params.simpleAnalytics]
+enable = true
+# customurl = "https://analytics.example.com"
+
+## Math settings
+[params.math]
+enable = false  # options: true, false. Enable math support globally, default: false. You can always enable math on per page.
+use = "katex"  # options: "katex", "mathjax". default is "katex".
+
+
+[menu]
+
+  [[menu.main]]
+  name = "Home"
+  identifier = "home"
+  weight = 100
+  url = "/"
+
+  [[menu.main]]
+  name = "Posts"
+  weight = 200
+  identifier = "posts"
+  url = "/post/"
+
+  [[menu.main]]
+  name = "About"
+  weight = 300
+  identifier = "about"
+  url = "/about/"
